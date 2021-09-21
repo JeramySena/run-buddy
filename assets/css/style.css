@@ -45,7 +45,7 @@ body {
 }
 
 footer {
-  background-color: #fce138;
+  background: #fce138;
   width: 100%;
   padding: 40px 35px;  
 }
@@ -166,6 +166,7 @@ Section {
 
 .steps img {
   width: 15%;
+  margin: 10px 0;
 }
 
 .steps h3 {
@@ -217,7 +218,6 @@ Section {
 .trainer-bio h3 {
   font-size: 32px;
   margin-bottom: 8px;
-  color: #fce138;
 }
 
 .trainer-bio h4 {
@@ -246,11 +246,27 @@ Section {
   height: 400px;
 }
 
-.contact-info {
+.contact-info div {
   width: 410px;
   display: inline-block;
   vertical-align: top;
   text-align: left;
   margin: 30px 0 0 60px;
   color: white;
+}
+
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #fce138;
 }
