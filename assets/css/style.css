@@ -16,8 +16,7 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: #fce138;
-  margin: 0;  
+  color: #fce138;  
 }
 
 header a {
@@ -148,7 +147,6 @@ Section {
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
-  /* add this alongside your other declarations */
   margin: 0 auto;
   text-align: center;
 }
@@ -160,7 +158,7 @@ Section {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
+  border-bottom: 3px solid;
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
@@ -224,22 +222,18 @@ Section {
 }
 
 .trainers {
-
-}
-
-.trainer {
-  margin: 20px;
-  background: #024e76;
-  color: #fce138;
-  flex: 1;
-}
-
-.trainers {
   width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.trainer {
+  margin: 20px;
+  flex: 1;
+  background: #024e76;
+  color: #fce138;
 }
 
 .trainer img {
